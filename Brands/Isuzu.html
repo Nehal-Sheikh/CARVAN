@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <title>Honda</title>
+  <link rel="stylesheet" href="../style.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+  <!-- Navbaf Starts Here -->
+
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark rounded"
+    style="margin: 5px; padding-bottom:15px; background-color: rgb(96, 120, 129);">
+    <!--rgb(142, 169, 179) -->
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="../Index.html"><img src="../Pictures/Logo/Logo.png" alt="Logo" width="50"
+            height="40"></a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="../Index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white activeitem" aria-current="page" href="../Brands.html">Brands</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="../Range.html">Range of Cars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="../Preown.html">PreOwned Cars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../About.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../Contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Modal -->
+  
+  <div class="coll1">
+    <div class="d-flex justify-content-around">
+  <div>
+  <div class="card" style="width: 18rem; background-color: rgb(214, 216, 216);">
+    <img src="../Pictures/isuzu.jpg" style="width: 286px; height: 160px;" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">ISUZU D-Max</h5>
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Details</button>
+  </div>
+  </div>
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Specifications</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <table class="table table-bordered" width="0">
+            <tbody>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Engine </strong></span></td>
+            </tr>
+            <tr>
+              <td>Engine Type</td>
+              <td>1.5 L DOHC inline 4 Cylinders, 16 Valves , VTEC Turbo</td>
+            </tr>
+            <tr>
+              <td>Engine Capacity (cc)</td>
+              <td>1,498</td>
+            </tr>
+            <tr>
+              <td>Compression Ratio</td>
+              <td>10.3 : 1</td>
+            </tr>
+            <tr>
+              <td>Bore x Stroke (mm)</td>
+              <td>73 x 89.5</td>
+            </tr>
+            <tr>
+              <td>Fuel Supply System</td>
+              <td>PGM -FI (Direct Injection)</td>
+            </tr>
+            <tr>
+              <td>Fuel Type (Minimum Recommended)</td>
+              <td>Unleaded (RON91)</td>
+            </tr>
+            <tr>
+              <td>Drive By Wire Throttle (DBW)</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Transmission</strong></span></td>
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td>Continuous Variable Transmission (CVT) with Earth Dreams Technology</td>
+            </tr>
+            <tr>
+              <td>Paddle Shifter</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Performance &amp; Fuel Economy</strong></span>
+              </td>
+            </tr>
+            <tr>
+              <td>Maximum Power (kW @ rpm)</td>
+              <td>134 / 5,600</td>
+            </tr>
+            <tr>
+              <td>Maximum Torque (Nm @ rpm)</td>
+              <td>233 / 5,000</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Dimensions</strong></span></td>
+            </tr>
+            <tr>
+              <td>Overall Length(mm)</td>
+              <td>4,901</td>
+            </tr>
+            <tr>
+              <td>Overall Width (mm)</td>
+              <td>1,862</td>
+            </tr>
+            <tr>
+              <td>Overall Height (mm)</td>
+              <td>1,450</td>
+            </tr>
+            <tr>
+              <td>Wheelbase (mm)</td>
+              <td>2,830</td>
+            </tr>
+            <tr>
+              <td>Tread(mm)</td>
+              <td>Front / Rear - 1,590 / 1,603.2</td>
+            </tr>
+            <tr>
+              <td>Ground Clearance(mm)</td>
+              <td>131.3</td>
+            </tr>
+            <tr>
+              <td>Minimum Turning Radius at Wheel Center (m)</td>
+              <td>5.7</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Weight &amp; Capacities</strong></span></td>
+            </tr>
+            <tr>
+              <td>Boot Capacity (litres in VDA standard)</td>
+              <td>573</td>
+            </tr>
+            <tr>
+              <td>Fuel Tank Capacity (L)</td>
+              <td>56</td>
+            </tr>
+            <tr>
+              <td>Seating Capacity</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Wheels &amp; Tyres</strong></span></td>
+            </tr>
+            <tr>
+              <td>Tyre Size</td>
+              <td>235/45 R18 94V</td>
+            </tr>
+            <tr>
+              <td>Wheel Size</td>
+              <td>18 x 8J</td>
+            </tr>
+            <tr>
+              <td>Wheel Type</td>
+              <td>Alloy</td>
+            </tr>
+            <tr>
+              <td>Spare Wheel</td>
+              <td>T135/90D16</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Chassis</strong></span></td>
+            </tr>
+            <tr>
+              <td>Suspension Type</td>
+              <td>Macpherson Strut (Front)<br />
+                Multi-link(Rear)</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Steering System</strong></span></td>
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td>Dual Pinions with EPS</td>
+            </tr>
+            <tr>
+              <td>Tilt &amp; Telescopic</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Braking System</strong></span></td>
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td>-Ventilated Disk(Front)<br />
+                -Solid Disc (Rear)</td>
+            </tr>
+            <tr>
+              <td>Parking Brake Type</td>
+              <td>Electric</td>
+            </tr>
+            <tr>
+              <td>Auto Brake Hold</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Exterior</strong></span></td>
+            </tr>
+            <tr>
+              <td>Auto Headlight Adjuster</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Head Lamps Types</td>
+              <td>Full LED</td>
+            </tr>
+            <tr>
+              <td>Auto Off Timer</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>LED Daytime Running Lights (DRL)</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>LED Rear Combination Tall Lights</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Fog Lights</td>
+              <td>LED</td>
+            </tr>
+            <tr>
+              <td>Outer Door Handles</td>
+              <td>Chrome + Body Color</td>
+            </tr>
+            <tr>
+              <td>Antenna Type</td>
+              <td>Shark Fin</td>
+            </tr>
+            <tr>
+              <td>Sunroof</td>
+              <td>Electric</td>
+            </tr>
+            <tr>
+              <td>Door Mirrors</td>
+              <td>-Electrically Adjustable<br />
+                -LED Turn Indicators<br />
+                -Reverse Tilt-down Function<br />
+                -Power Retractable</td>
+            </tr>
+            <tr>
+              <td>Chrome Exhaust Pipe Finisher</td>
+              <td>Dual</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Driver Aids</strong></span></td>
+            </tr>
+            <tr>
+              <td>Cruise Control</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Driving Mode</td>
+              <td>ECON with ECO Assist &amp; SPORTS</td>
+            </tr>
+            <tr>
+              <td>Segment Meter</td>
+              <td>-Odometer<br />
+                -Trip Meter A/B<br />
+                -Instant/ Average Fuel Economy<br />
+                -Range<br />
+                -Average Speed<br />
+                -Elapsed Time<br />
+                -Outside Temperature Display</td>
+            </tr>
+            <tr>
+              <td>Steering Mounted Switches</td>
+              <td>-Audio<br />
+                -Bluetooth<br />
+                -Cruise Control</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Comfort &amp; Convenience</strong></span></td>
+            </tr>
+            <tr>
+              <td>Smart Entry</td>
+              <td>With Push Start Button</td>
+            </tr>
+            <tr>
+              <td>Remote Engine Start</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Auto Wiper (Front Rain Sensors)</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Accessory Power Outlet (12V)</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Wireless Phone Charger</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Active Noise Control (ANC)</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Noise Reducing Wheels</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Air-Conditioning</td>
+              <td>Dual-Zone Climate Control</td>
+            </tr>
+            <tr>
+              <td>Rear Ventilation Ducts</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Auto Dimming Rear View Mirror</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Interior Lighting</td>
+              <td>-Glove Box<br />
+                -Luggage Area Light<br />
+                -Vanity Mirror Light (x2)</td>
+            </tr>
+            <tr>
+              <td>One Touch Lane Winker</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Auto Up/Down Power Windows (DR / AS)</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Trunk Lid Lining</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Seating</strong></span></td>
+            </tr>
+            <tr>
+              <td>Seat Trim</td>
+              <td>Leather (Black)</td>
+            </tr>
+            <tr>
+              <td>Driver’s Seat</td>
+              <td>- Power 8-way Adjustment<br />
+                - Lumbar Support (4-way Power)</td>
+            </tr>
+            <tr>
+              <td>Passenger Seat</td>
+              <td>Power- 4-way Adjustment</td>
+            </tr>
+            <tr>
+              <td>Rear Seats</td>
+              <td>Fold-down (One Piece)</td>
+            </tr>
+            <tr>
+              <td>Memory Function</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Storage</strong></span></td>
+            </tr>
+            <tr>
+              <td>Cargo Restraint Hooks (x2)</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Centre Console Box</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Cup/Bottle Holders (x6)</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Glove-box</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Interior Styling</strong></span></td>
+            </tr>
+            <tr>
+              <td>Leather Wrapped Steering Wheel &amp; Shift Knob</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Wood-grain Look Interior Finishes</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Multimedia</strong></span></td>
+            </tr>
+            <tr>
+              <td>Audio System</td>
+              <td>-8" Display Audio with Advance Capacitive<br />
+                -AM/FM Radio<br />
+                -MP3/WMA<br />
+                -Smartphone Connection<br />
+                -Bluetooth Phone Display</td>
+            </tr>
+            <tr>
+              <td>Auto Car Play</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Audio Speaker</td>
+              <td>6 Speakers</td>
+            </tr>
+            <tr>
+              <td>USB Ports</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Safety</strong></span></td>
+            </tr>
+            <tr>
+              <td>Anti-lock Braking System (ABS)</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Brake Assist (BA) and Electronic Brake-force Distribution (EBD)</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Emergency Stop Signal (ESS)</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Hill Start Assist (HSA)</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Lane Watch</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Vehicle Stability Assist (VSA)</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>SRS 6 Airbags</td>
+              <td>-Driver &amp; Front Passenger<br />
+                -Side (x2)<br />
+                -Side Curtain (x2)</td>
+            </tr>
+            <tr>
+              <td>Child Safety Seat Anchorages</td>
+              <td>ISOFIX (x2)</td>
+            </tr>
+            <tr>
+              <td>Child-Proof Rear Door Locks</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Seat-belts (Emergency Locking Retractor)</td>
+              <td>-3P ELR x2<br />
+                - 3P ELR x3</td>
+            </tr>
+            <tr>
+              <td>Seat-belt Pretensioner</td>
+              <td>Driver and Front Passenger</td>
+            </tr>
+            <tr>
+              <td>Seat-belt Reminder</td>
+              <td>Driver and All Passenger</td>
+            </tr>
+            <tr>
+              <td>High Mount Stop Lamp</td>
+              <td>LED</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Parking Aids</strong></span></td>
+            </tr>
+            <tr>
+              <td>Multi-angle Reversing Camera</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td colspan="2"><span style="color: #ff0000;"><strong>Security</strong></span></td>
+            </tr>
+            <tr>
+              <td>ECU Immobilizer</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Security Alarm System</td>
+              <td>O</td>
+            </tr>
+            <tr>
+              <td>Walk Away Auto Lock</td>
+              <td>O</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+    <!-- Subscribe Section -->
+
+  <div style="background: linear-gradient(180deg,#cecdcd 50.97%,#7e7e7e);">
+    <br><h3 style="text-align: center;">Subscribe To Our NewsLetter</h3><br>
+    <div style="margin-left: 33% ;"> 
+    <form class="row g-2">
+    <div class="col-lg-1 col-12">
+      <label for="staticEmail2" class="visually-hidden">Email</label>
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Email">
+    </div>
+    <div class="col-lg-4 col-12">
+      <label for="email3" class="visually-hidden">Email</label>
+      <input type="email" class="form-control" id="email3" required>
+    </div>
+    <div class="col-lg-7 col-12">
+      <button type="submit" class="btn btn-dark mb-3">Subscribe</button>
+    </div>
+  </form>
+  </div>
+</div><br>
+
+    <!-- FOOTER -->
+
+    <section id="footer" class="bg-dark">
+      <div>
+        <div class="row text-center">
+          <div class="row justify-content-center">
+            <div style="text-align: center;">
+            <h5>Quick links</h5>
+            <ul class="list-unstyled quick-links">
+              <li><a href="../Index.html">Home</a></li>
+              <li><a href="../Brands.html">Brands</a></li>
+              <li><a href="../Range.html">Range Of Cars</a></li>
+              <li><a href="../Preown.html">PreOwned Cars</a></li>
+              <li><a href="../About.html">About Us</a></li>
+              <li><a href="../Contact.html">Contact Us</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="text-center justified-center ">
+            <ul class="list-unstyled list-inline social text-center">
+              <li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.ionstagram.com/"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.google.com/"><i class="fab fa-google-plus-g"></i></a></li>
+              <li class="list-inline-item"><a href="mailto:someone@example.com"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+          </div>
+          <hr>
+        </div>	
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+            <p><a href="../Index.html">CARVAN Corporation</a></p>
+            <p class="h6">© All right Reversed.</p>
+          </div>
+          <hr>
+        </div>	
+      </div>
+    </section>
+  
+
+</body>
+
+</html>
