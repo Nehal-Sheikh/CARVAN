@@ -1,0 +1,95 @@
+.nav-item a:hover:not(.activeitem) {
+    color: rgb(247, 148, 20)!important;
+    }
+.activeitem{
+    color:rgb(247, 148, 20)!important;
+}
+.coll{
+    padding: 110px;
+}
+.coll1{
+    padding: 80px;
+}
+.coll2{
+    padding: 10px;
+}
+.coll3{
+    margin-top: 52px;
+}
+.frm1 {
+    margin-top: 110px;
+    margin-left: 310px;
+    margin-right: 310px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 15px;
+    background-color: rgb(26, 25, 25);
+}
+.frm2 {
+    margin-top: 110px;
+    margin-left: 290px;
+    margin-right: 310px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.div1{
+    margin-top: 150px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.email1{
+    text-decoration: none;
+    color: black;
+}
+.bak{
+    background: linear-gradient(180deg,#f2f2f2 50.97%,#d9d9d9);;
+    width: 100%;
+
+}
+
+   /* FOOTER */
+section {
+    padding: 60px 0;
+}
+#footer h5{
+	padding-left: 10px;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a, #footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+}
